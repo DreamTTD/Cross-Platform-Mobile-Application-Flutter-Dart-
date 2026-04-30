@@ -1,0 +1,15 @@
+{
+  "name": "cross_platform_backend",
+  "version": "1.0.0",
+  "description": "Node.js backend API with realtime sync for Flutter mobile app.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "ws": "^8.13.0"
+  }
+}
